@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import HeroBackground from "@/images/HeroServicios.png";
-import HeroDivideLine from "@/images/HeroDivideLine.png";
 import { motion } from "framer-motion";
-import { FaArrowRight } from "react-icons/fa";
 
 function Index() {
   return (
