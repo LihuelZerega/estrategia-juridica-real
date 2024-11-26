@@ -1,6 +1,7 @@
 "use client"
-import { motion } from "framer-motion";
 import React, { useState } from "react";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
 function index() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,13 +12,13 @@ function index() {
     <header className="bg-blue flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full">
       <nav className="relative max-w-[85rem] w-full md:flex md:items-center md:justify-between md:gap-3 mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <div className="flex items-center justify-between">
-          <a
+          <Link
             className="flex-none font-semibold text-xl text-white focus:outline-none focus:opacity-80"
             href="/"
             aria-label="Brand"
           >
             EJR
-          </a>
+          </Link>
 
           <div className="md:hidden">
             <button
@@ -74,34 +75,34 @@ function index() {
         >
           <div className="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
             <div className="py-2 md:py-0 flex flex-col md:flex-row md:items-center md:justify-end gap-0.5 md:gap-6">
-              <a
+              <Link
                 className="p-2 flex items-center text-sm/5 text-white hover:text-gold hover:border-b-2 border-gold"
                 href="/"
                 aria-current="page"
               >
                 Inicio
-              </a>
+              </Link>
 
-              <a
+              <Link
                 className="p-2 flex items-center text-sm/5 text-white hover:text-gold hover:border-b-2 border-gold"
                 href="/servicios"
               >
                 Servicios
-              </a>
+              </Link>
 
-              <a
+              <Link
                 className="p-2 flex items-center text-sm/5 text-white hover:text-gold hover:border-b-2 border-gold"
                 href="/sobre-nosotros"
               >
                 Sobre Nosotros
-              </a>
+              </Link>
 
-              <a
+              <Link
                 className="py-2 px-3 flex items-center text-sm/5 text-white hover:bg-gold border"
                 href="/contacto"
               >
                 Contactanos
-              </a>
+              </Link>
             </div>
           </div>
         </motion.div>

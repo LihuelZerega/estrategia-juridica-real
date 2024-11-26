@@ -1,4 +1,3 @@
-import { footer } from "framer-motion/m";
 import React from "react";
 
 function index() {
