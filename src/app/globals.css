@@ -5,17 +5,18 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --blue: #192634;
+  --gold: #cdb091;
+  --font-playfair-display: "Playfair Display", serif;
+  --font-lato: "Lato", sans-serif;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-lato), sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-playfair-display);
 }
