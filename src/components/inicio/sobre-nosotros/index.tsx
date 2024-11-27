@@ -13,10 +13,11 @@ function Index() {
           Sobre <span className="text-gold">Nosotros</span>
         </h2>
         <p className="md:w-4/5 text-center md:text-left text-sm md:text-base text-neutral-500 mt-4 md:mt-0">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
-          voluptatibus ducimus a, placeat dolorum sed officia debitis dicta ex
-          est neque id, nesciunt illum magnam deserunt aliquid, aspernatur
-          voluptatum quos?
+          En nuestro despacho nos especializamos en asuntos de Derecho Civil,
+          Mercantil y Familiar, con más de 11 años de experiencia en la
+          resolución de asuntos legales complejos. Nuestra abogada titular,
+          Maricruz Real, es una profesional destacada en el litigio, habiendo
+          gestionado casos de gran envergadura.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-12">

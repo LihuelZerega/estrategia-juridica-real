@@ -9,7 +9,7 @@ import Faq from "@/components/inicio/faq";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Navbar />
       <HeroSection />
       <SobreNosotros />
@@ -21,6 +21,6 @@ export default function Home() {
       </div>
       <Faq />
       <Footer />
-    </div>
+    </>
   );
 }

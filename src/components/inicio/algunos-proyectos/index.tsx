@@ -13,9 +13,8 @@ function Index() {
           Algunos de Nuestros <span className="text-gold">Proyectos</span>
         </h2>
         <p className="text-center text-sm md:text-base text-neutral-200 mt-4 max-w-2xl">
-          Eligendi voluptatibus ducimus a, placeat dolorum sed officia debitis
-          dicta ex est neque id, nesciunt illum magnam deserunt aliquid,
-          aspernatur voluptatum quos?
+        Estas experiencias nos han permitido desarrollar un enfoque especializado y eficiente, con una profunda comprensión de las complejidades legales en cada una de estas áreas.
+
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 lg:mx-24">
