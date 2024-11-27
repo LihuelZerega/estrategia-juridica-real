@@ -2,7 +2,7 @@ import React from "react";
 
 function Index() {
   return (
-    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div className="max-w-[85rem] px-6 py-12 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <div className="max-w-4xl mx-auto text-center mb-10 lg:mb-14">
         <h2 className="text-4xl lg:text-5xl font-semibold md:text-3xl md:leading-tight text-blue">
           Respuestas a tus{" "}
