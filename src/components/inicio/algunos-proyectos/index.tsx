@@ -4,6 +4,7 @@ import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 
 import TramitesAnteDependencias from "@/images/TramitesAnteDependencias.png";
+import Link from "next/link";
 
 function Index() {
   return (
@@ -29,10 +30,10 @@ function Index() {
               <h3 className="text-3xl font-bold lg:max-w-sm">
                 Defensa de la alcaldía Benito Juárez
               </h3>
-              <a href="/" className="flex flex-row items-center space-x-2 text-lg mt-2">
+              <Link href="/" className="flex flex-row items-center space-x-2 text-lg mt-2">
                 <p className="hover:underline">Leer mas</p>
                 <FaArrowRight size={12} />
-              </a>
+              </Link>
             </h3>
           </div>
         </section>
@@ -47,10 +48,10 @@ function Index() {
               <h3 className="text-3xl font-bold lg:max-w-sm">
                 Defensa de la alcaldía Benito Juárez
               </h3>
-              <a href="/" className="flex flex-row items-center space-x-2 text-lg mt-2">
+              <Link href="/" className="flex flex-row items-center space-x-2 text-lg mt-2">
                 <p className="hover:underline">Leer mas</p>
                 <FaArrowRight size={12} />
-              </a>
+              </Link>
             </h3>
           </div>
         </section>
@@ -65,10 +66,10 @@ function Index() {
               <h3 className="text-3xl font-bold lg:max-w-sm">
                 Defensa de la alcaldía Benito Juárez
               </h3>
-              <a href="/" className="flex flex-row items-center space-x-2 text-lg mt-2">
+              <Link href="/" className="flex flex-row items-center space-x-2 text-lg mt-2">
                 <p className="hover:underline">Leer mas</p>
                 <FaArrowRight size={12} />
-              </a>
+              </Link>
             </h3>
           </div>
         </section>
@@ -83,10 +84,10 @@ function Index() {
               <h3 className="text-3xl font-bold lg:max-w-sm">
                 Defensa de la alcaldía Benito Juárez
               </h3>
-              <a href="/" className="flex flex-row items-center space-x-2 text-lg mt-2">
+              <Link href="/" className="flex flex-row items-center space-x-2 text-lg mt-2">
                 <p className="hover:underline">Leer mas</p>
                 <FaArrowRight size={12} />
-              </a>
+              </Link>
             </h3>
           </div>
         </section>
