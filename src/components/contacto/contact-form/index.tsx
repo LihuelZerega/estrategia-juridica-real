@@ -11,7 +11,7 @@ export default function ContactForm() {
     situation: "",
   });
 
-  const [isTermsChecked, setIsTermsChecked] = useState(false);
+  // const [isTermsChecked, setIsTermsChecked] = useState(false);
   const [modalContent, setModalContent] = useState({ title: "", message: "" });
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isTermsOpen, setIsTermsOpen] = useState(false);
@@ -64,7 +64,7 @@ export default function ContactForm() {
         situation: "",
       });
       setSelectedService("");
-      setIsTermsChecked(false);
+      // setIsTermsChecked(false);
     } else {
       setModalContent({
         title: "Error",
@@ -74,9 +74,9 @@ export default function ContactForm() {
     setIsModalOpen(true);
   };
 
-  const openTerms = () => {
-    setIsTermsOpen(true);
-  };
+  // const openTerms = () => {
+  //   setIsTermsOpen(true);
+  // };
 
   const closeTerms = () => {
     setIsTermsOpen(false);
