@@ -196,10 +196,79 @@ export default function ContactForm() {
                     <option value="" disabled selected>
                       Seleccione un Servicio
                     </option>
-                    <option value="Servicio 1">Servicio 1</option>
-                    <option value="Servicio 2">Servicio 2</option>
-                    <option value="Servicio 3">Servicio 3</option>
-                    <option value="Servicio 4">Servicio 4</option>
+                    <option value="procedimiento-rescision-cumplimiento-contrato">
+                      Procedimiento de Rescisión o Cumplimiento de Contrato
+                    </option>
+                    <option value="controversias-arrendamiento">
+                      Controversias de Arrendamiento
+                    </option>
+                    <option value="cobros-defensa-pagares">
+                      Cobros y Defensa de Pagarés
+                    </option>
+                    <option value="juicio-otorgamiento-firma-escritura">
+                      Juicio de Otorgamiento y Firma de Escritura
+                    </option>
+                    <option value="elaboracion-revision-contratos">
+                      Elaboración y Revisión de Contratos
+                    </option>
+                    <option value="juicios-hipotecarios">
+                      Juicios Hipotecarios
+                    </option>
+                    <option value="asesoria-legal-condominios">
+                      Asesoría Legal a Condominios
+                    </option>
+                    <option value="elaboracion-revision-requerimientos-extrajudiciales">
+                      Elaboración y Revisión de Requerimientos Extrajudiciales
+                    </option>
+                    <option value="juicios-sucesorios-intestamentarios-testamentarios">
+                      Juicios Sucesorios Intestamentarios y Testamentarios
+                    </option>
+                    <option value="juicio-peticion-herencia">
+                      Juicio de Petición de Herencia
+                    </option>
+                    <option value="juicios-pension-alimenticia">
+                      Juicios de Pensión Alimenticia
+                    </option>
+                    <option value="juicios-guarda-custodia-regimen-visitas">
+                      Juicios de Guarda y Custodia y Régimen de Visitas
+                    </option>
+                    <option value="juicio-divorcio-incaustado">
+                      Juicio de Divorcio Incausado
+                    </option>
+                    <option value="juicio-reconocimiento-concubinato">
+                      Juicio de Reconocimiento de Concubinato
+                    </option>
+                    <option value="juicio-liquidacion-sociedad-conyugal">
+                      Juicio de Liquidación de Sociedad Conyugal
+                    </option>
+                    <option value="diligenciacion-exhortos-oficios-cdmx-edomex">
+                      Diligenciación de Exhortos y Oficios en CDMX y Estado de
+                      México
+                    </option>
+                    <option value="pasantia-juicios-radicados-cdmx-edomex">
+                      Pasantía de Juicios Radicados en CDMX y Estado de México
+                    </option>
+                    <option value="domicilio-procesal-juicios">
+                      Domicilio Procesal en Juicios
+                    </option>
+                    <option value="busqueda-expedientes-archivo-judicial-cdmx">
+                      Búsqueda de Expedientes en el Archivo Judicial de la
+                      Ciudad de México
+                    </option>
+                    <option value="tramites-registro-civil">
+                      Trámites ante el Registro Civil
+                    </option>
+                    <option value="tramites-registro-publico-propiedad-cdmx">
+                      Trámites ante el Registro Público de la Propiedad de la
+                      Ciudad de México
+                    </option>
+                    <option value="tramites-archivo-general-notarias">
+                      Trámites ante el Archivo General de Notarías
+                    </option>
+                    <option value="tramites-cancelacion-adeudo-agua-predial-prescripcion">
+                      Trámites de Cancelación de Adeudo de Agua y Predial por
+                      Prescripción
+                    </option>
                   </select>
                 </div>
 
@@ -466,7 +535,6 @@ export default function ContactForm() {
               aria-labelledby="hs-task-created-alert-label"
             >
               <div className="relative flex flex-col bg-white shadow-lg w-full max-w-lg">
-
                 <div className="p-4 sm:p-10 text-center overflow-y-auto">
                   <h3
                     id="hs-task-created-alert-label"
@@ -500,9 +568,9 @@ export default function ContactForm() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <circle cx="12" cy="12" r="10" />
                 <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
@@ -525,9 +593,9 @@ export default function ContactForm() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z" />
                 <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
@@ -552,21 +620,21 @@ export default function ContactForm() {
                 <path
                   d="M5 9C5 5.70017 5 4.05025 6.02513 3.02513C7.05025 2 8.70017 2 12 2C15.2998 2 16.9497 2 17.9749 3.02513C19 4.05025 19 5.70017 19 9V15C19 18.2998 19 19.9497 17.9749 20.9749C16.9497 22 15.2998 22 12 22C8.70017 22 7.05025 22 6.02513 20.9749C5 19.9497 5 18.2998 5 15V9Z"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
                 />
                 <path
                   d="M11 19H13"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M9 2L9.089 2.53402C9.28188 3.69129 9.37832 4.26993 9.77519 4.62204C10.1892 4.98934 10.7761 5 12 5C13.2239 5 13.8108 4.98934 14.2248 4.62204C14.6217 4.26993 14.7181 3.69129 14.911 2.53402L15 2"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinejoin="round"
                 />
               </svg>
               <div className="grow">
@@ -589,42 +657,42 @@ export default function ContactForm() {
                   cy="13"
                   r="9"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
                 />
                 <path
                   d="M5 19L3 21M19 19L21 21"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M19 3.5697L19.5955 3.27195C20.4408 2.84932 20.7583 2.89769 21.4303 3.5697C22.1023 4.2417 22.1507 4.55924 21.728 5.4045L21.4303 6M5 3.5697L4.4045 3.27195C3.55924 2.84932 3.2417 2.89769 2.5697 3.5697C1.89769 4.2417 1.84932 4.55924 2.27195 5.4045L2.5697 6"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
                 />
                 <path
                   d="M12 9.5V13.5L14 15.5"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M12 3.5V2"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M10 2H14"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <div className="grow">

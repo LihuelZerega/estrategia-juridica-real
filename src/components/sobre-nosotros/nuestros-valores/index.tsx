@@ -6,7 +6,7 @@ import NuestrosValores from "@/images/NuestrosValores.png";
 
 function Index() {
   return (
-    <div className="px-6 md:p-12 2xl:py-24 2xl:px-36 lg:space-y-24">
+    <div id="nuestros-valores" className="px-6 md:p-12 2xl:py-24 2xl:px-36 lg:space-y-24">
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="hidden md:flex flex-col items-center justify-center">
           <Image
@@ -15,8 +15,8 @@ function Index() {
             className="flex bg-blue md:h-[500px] md:w-[500px]"
           />
         </div>
-        <div className="flex flex-col items-start justify-center space-y-5 md:p-8 2xl:pl-24">
-          <h2 className="text-4xl lg:text-5xl font-semibold text-blue">
+        <div className="flex flex-col items-center lg:items-start justify-center space-y-5 md:p-8 2xl:pl-24">
+          <h2 className="text-center lg:text-left text-4xl lg:text-5xl font-semibold text-blue">
             <span className="text-gold">Nuestros</span> Valores
           </h2>
           <p className="text-sm md:text-base text-neutral-500">

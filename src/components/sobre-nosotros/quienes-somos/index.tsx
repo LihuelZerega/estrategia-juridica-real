@@ -2,7 +2,7 @@ import React from "react";
 
 function Index() {
   return (
-    <div className="px-6 py-12 md:p-12 2xl:py-24 2xl:px-56">
+    <div id="quienes-somos" className="px-6 py-12 md:p-12 2xl:py-24 2xl:px-56">
       <div className="flex flex-col md:flex-row items-center w-full">
         <h2 className="md:w-2/5 text-3xl lg:text-4xl 2xl:text-5xl font-semibold text-blue mt-6 md:mt-0">
           ¿Quienes <span className="text-gold">Somos?</span>

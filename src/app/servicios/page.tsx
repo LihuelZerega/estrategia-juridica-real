@@ -10,10 +10,10 @@ export default function Page() {
       <Navbar />
       <HeroSection />
       <Servicios />
-      <div className="text-transparent select-none border-b mx-80">
+      {/* <div className="text-transparent select-none border-b mx-80">
         s
       </div>
-      <ProyectosRealizados />
+      <ProyectosRealizados /> */}
       <Footer />
     </div>
   );

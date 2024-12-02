@@ -1,12 +1,14 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
 function Index() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
+  const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
 
   return (
     <header className="bg-blue flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full">
@@ -23,14 +25,14 @@ function Index() {
           <div className="md:hidden">
             <button
               type="button"
-              className="hs-collapse-toggle relative size-9 flex justify-center items-center text-sm font-semibold rounded-lg border border-gray-200 text-white disabled:opacity-50 disabled:pointer-events-none"
+              className="relative size-9 flex justify-center items-center text-sm font-semibold rounded-lg border border-gray-200 text-white disabled:opacity-50 disabled:pointer-events-none"
               onClick={toggleMenu}
               aria-expanded={isOpen ? "true" : "false"}
-              aria-controls="hs-header-classNameic"
+              aria-controls="hs-header-classic"
               aria-label="Toggle navigation"
             >
               <svg
-                className={`hs-collapse-open:hidden size-4 ${isOpen ? "hidden" : ""}`}
+                className={`size-4 ${isOpen ? "hidden" : ""}`}
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -46,7 +48,7 @@ function Index() {
                 <line x1="3" x2="21" y1="18" y2="18" />
               </svg>
               <svg
-                className={`hs-collapse-open:block shrink-0 hidden size-4 ${!isOpen ? "hidden" : ""}`}
+                className={`shrink-0 size-4 ${!isOpen ? "hidden" : ""}`}
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -66,44 +68,93 @@ function Index() {
         </div>
 
         <motion.div
-          id="hs-header-classNameic"
-          className={`hs-collapse transition-all duration-300 ${isOpen ? "block" : "hidden"} md:block`}
-          aria-labelledby="hs-header-classNameic-collapse"
+          id="hs-header-classic"
+          className={`transition-all duration-300 ${
+            isOpen ? "block" : "hidden"
+          } md:block`}
+          aria-labelledby="hs-header-classic-collapse"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
         >
-          <div className="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
-            <div className="py-2 md:py-0 flex flex-col md:flex-row md:items-center md:justify-end gap-0.5 md:gap-6">
-              <Link
-                className="p-2 flex items-center text-sm/5 text-white hover:text-gold hover:border-b-2 border-gold"
-                href="/"
-                aria-current="page"
-              >
-                Inicio
-              </Link>
+          <div className="py-2 md:py-0 flex flex-col md:flex-row md:items-center md:justify-end gap-3 md:gap-6">
+            <Link
+              className="p-2 flex items-center text-sm/5 text-white hover:text-gold hover:border-b-2 border-gold"
+              href="/"
+              aria-current="page"
+            >
+              Inicio
+            </Link>
 
-              <Link
-                className="p-2 flex items-center text-sm/5 text-white hover:text-gold hover:border-b-2 border-gold"
-                href="/servicios"
+            {/* Dropdown Servicios */}
+            <div className="relative">
+              <button
+                type="button"
+                className="w-full p-2 flex items-center text-sm text-white hover:text-gold focus:outline-none"
+                onClick={toggleDropdown}
+                aria-expanded={isDropdownOpen ? "true" : "false"}
               >
                 Servicios
-              </Link>
-
-              <Link
-                className="p-2 flex items-center text-sm/5 text-white hover:text-gold hover:border-b-2 border-gold"
-                href="/sobre-nosotros"
-              >
-                Sobre Nosotros
-              </Link>
-
-              <Link
-                className="py-2 px-3 flex items-center text-sm/5 text-white hover:bg-gold border"
-                href="/contacto"
-              >
-                Contactanos
-              </Link>
+                <svg
+                  className={`duration-300 ml-2 transform ${
+                    isDropdownOpen ? "-rotate-180" : "rotate-0"
+                  }`}
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+              {isDropdownOpen && (
+                <div className="absolute lg:w-80 top-full mt-2 bg-white shadow-md z-10">
+                  <Link
+                    className="block px-4 py-3 text-base text-gray-800 hover:bg-gray-100"
+                    href="/servicios#asesoria-en-materia-civil-y-mercantil"
+                  >
+                    Asesoría en materia Civil y Mercantil
+                  </Link>
+                  <Link
+                    className="block px-4 py-3 text-base text-gray-800 hover:bg-gray-100 border-t"
+                    href="/servicios#asesoria-juridica-en-materia-familiar"
+                  >
+                    Asesoría Jurídica en Materia Familiar
+                  </Link>
+                  <Link
+                    className="block px-4 py-3 text-base text-gray-800 hover:bg-gray-100 border-t"
+                    href="/servicios#servicio-de-corresponsalicia-juridica"
+                  >
+                    Servicio de Corresponsalía Jurídica
+                  </Link>
+                  <Link
+                    className="block px-4 py-3 text-base text-gray-800 hover:bg-gray-100 border-t"
+                    href="/servicios#gestion-de-tramites-ante-dependencias"
+                  >
+                    Gestión de Trámites ante Dependencias
+                  </Link>
+                </div>
+              )}
             </div>
+
+            <Link
+              className="p-2 flex items-center text-sm/5 text-white hover:text-gold hover:border-b-2 border-gold"
+              href="/sobre-nosotros"
+            >
+              Sobre Nosotros
+            </Link>
+
+            <Link
+              className="py-2 px-3 flex items-center text-sm/5 text-white hover:bg-gold border"
+              href="/contacto"
+            >
+              Contactanos
+            </Link>
           </div>
         </motion.div>
       </nav>

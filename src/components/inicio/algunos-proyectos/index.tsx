@@ -8,7 +8,7 @@ import Link from "next/link";
 
 function Index() {
   return (
-    <div className="bg-blue px-6 py-12 md:p-12 2xl:py-24 2xl:px-36">
+    <div id="proyectos" className="bg-blue px-6 py-12 md:p-12 2xl:py-24 2xl:px-36">
       <div className="flex flex-col items-center w-full">
         <h2 className="text-center text-4xl lg:text-5xl font-semibold text-white">
           Algunos de Nuestros <span className="text-gold">Proyectos</span>

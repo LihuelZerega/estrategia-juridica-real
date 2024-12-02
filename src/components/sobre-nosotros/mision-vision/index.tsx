@@ -6,10 +6,10 @@ import MisionVision from "@/images/MisionVision.jpg";
 
 function Index() {
   return (
-    <div className="px-6 md:p-12 2xl:py-24 2xl:px-36 lg:space-y-24">
+    <div id="mision-vision" className="px-6 md:p-12 2xl:py-24 2xl:px-36 lg:space-y-24">
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
-        <div className="flex flex-col items-start justify-center space-y-5 md:p-8 2xl:pl-24">
-          <h2 className="text-4xl lg:text-5xl font-semibold text-blue">
+        <div className="flex flex-col items-center lg:items-start justify-center space-y-5 md:p-8 2xl:pl-24">
+          <h2 className="text-center lg:text-left text-4xl lg:text-5xl font-semibold text-blue">
             Nuestra <br />
             <span className="text-gold">Misión </span>y
             <span className="text-gold"> Visión</span>
