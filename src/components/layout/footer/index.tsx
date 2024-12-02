@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function index() {
   return (
@@ -6,13 +7,13 @@ function index() {
       <div className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
           <div className="col-span-full hidden lg:col-span-1 lg:block">
-            <a
+            <Link
               className="flex-none font-semibold text-xl text-white focus:outline-none focus:opacity-80"
               href="/"
               aria-label="Brand"
             >
               EJR
-            </a>
+            </Link>
           </div>
 
           <div>
@@ -22,44 +23,44 @@ function index() {
 
             <div className="mt-3 grid space-y-3 text-sm">
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/#nosotros"
                 >
                   Sobre Nosotros
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/#servicios"
                 >
                   Nuestros Servicios
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/#proyectos"
                 >
                   Nuestros Proyectos
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/#testimonios"
                 >
                   Testimonios
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/#preguntas-frecuentes"
                 >
                   Preguntas Frecuentes
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -71,36 +72,36 @@ function index() {
 
             <div className="mt-3 grid space-y-3 text-sm">
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/servicios#asesoria-en-materia-civil-y-mercantil"
                 >
                   Asesoría en materia Civil y Mercantil
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/servicios#asesoria-juridica-en-materia-familiar"
                 >
                   Asesoría Jurídica en Materia Familiar
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/servicios#servicio-de-corresponsalicia-juridica"
                 >
                   Servicio de Corresponsalía Jurídica
-                </a>{" "}
+                </Link>{" "}
               </p>
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/servicios#gestion-de-tramites-ante-dependencias"
                 >
                   Gestión de Trámites ante Dependencias
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -112,36 +113,36 @@ function index() {
 
             <div className="mt-3 grid space-y-3 text-sm">
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/sobre-nosotros#quienes-somos"
                 >
                   Quienes Somos
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/sobre-nosotros#mision-vision"
                 >
                   Nuestra Misión y Visión
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/sobre-nosotros#nuestros-valores"
                 >
                   Nuestros Valores
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/sobre-nosotros#areas-de-especializacion"
                 >
                   Áreas de Especializacion
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -178,17 +179,17 @@ function index() {
 
             <div className="flex flex-wrap justify-between items-center gap-3">
               <div className="mt-3 sm:hidden">
-                <a
+                <Link
                   className="flex-none font-semibold text-xl text-white focus:outline-none focus:opacity-80"
                   href="/"
                   aria-label="Brand"
                 >
                   EJR
-                </a>
+                </Link>
               </div>
 
               <div className="space-x-4">
-                <a
+                <Link
                   className="inline-block text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800"
                   href="#"
                 >
@@ -214,8 +215,8 @@ function index() {
                       strokeLinejoin="round"
                     />
                   </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="inline-block text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800"
                   href="#"
                 >
@@ -246,8 +247,8 @@ function index() {
                       strokeLinejoin="round"
                     />
                   </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="inline-block text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800"
                   href="#"
                 >
@@ -273,8 +274,8 @@ function index() {
                       strokeLinejoin="round"
                     />
                   </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="inline-block text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800"
                   href="#"
                 >
@@ -314,7 +315,7 @@ function index() {
                       strokeLinejoin="round"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
