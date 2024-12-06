@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Logo from "@/images/Logo.png";
 
 function index() {
   return (
@@ -12,7 +14,7 @@ function index() {
               href="/"
               aria-label="Brand"
             >
-              EJR
+              <Image src={Logo} alt="Logo" width={150} height={50} />
             </Link>
           </div>
 
@@ -184,11 +186,11 @@ function index() {
                   href="/"
                   aria-label="Brand"
                 >
-                  EJR
+                  <Image src={Logo} alt="Logo" width={150} height={50} />
                 </Link>
               </div>
 
-              <div className="space-x-4">
+              {/* <div className="space-x-4">
                 <Link
                   className="inline-block text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800"
                   href="#"
@@ -316,7 +318,7 @@ function index() {
                     />
                   </svg>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
+import Logo from "@/images/Logo.png";
 
 function Index() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +21,7 @@ function Index() {
             href="/"
             aria-label="Brand"
           >
-            EJR
+            <Image src={Logo} alt="Logo" width={120} height={120} />
           </Link>
 
           <div className="md:hidden">
