@@ -2,7 +2,14 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
-import MisionVision from "@/images/MisionVision.jpg";
+
+import JuiciosSucesoriosIntestamentariosyTestamentarios from "@/images/Servicios/AsesoriaJuridicaenMateriaFamiliar/JuiciosSucesoriosIntestamentariosyTestamentarios.png";
+import JuiciodePeticiondeHerencia from "@/images/Servicios/AsesoriaJuridicaenMateriaFamiliar/JuiciodePeticiondeHerencia.png";
+import JuiciosdePensiónAlimenticia from "@/images/Servicios/AsesoriaJuridicaenMateriaFamiliar/JuiciosdePensiónAlimenticia.png";
+import JuiciosdeGuardayCustodiayRégimendeVisitas from "@/images/Servicios/AsesoriaJuridicaenMateriaFamiliar/JuiciosdeGuardayCustodiayRégimendeVisitas.png";
+import JuiciodeDivorcioIncausado from "@/images/Servicios/AsesoriaJuridicaenMateriaFamiliar/JuiciodeDivorcioIncausado.png";
+import JuiciodeReconocimientodeConcubinato from "@/images/Servicios/AsesoriaJuridicaenMateriaFamiliar/JuiciodeReconocimientodeConcubinato.png";
+import JuiciodeLiquidaciondeSociedadConyugal from "@/images/Servicios/AsesoriaJuridicaenMateriaFamiliar/JuiciodeLiquidaciondeSociedadConyugal.png";
 
 function Index() {
   return (
@@ -10,12 +17,11 @@ function Index() {
       <h2 id="asesoria-juridica-en-materia-familiar" className="text-4xl lg:text-5xl font-semibold text-gold text-center py-12 border-b border-b-neutral-200">
         Asesoría Jurídica en Materia Familiar
       </h2>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="hidden md:flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciosSucesoriosIntestamentariosyTestamentarios}
+            alt="Juicios Sucesorios Intestamentarios y Testamentarios"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
@@ -55,13 +61,12 @@ function Index() {
         </div>
         <div className="flex md:hidden flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciosSucesoriosIntestamentariosyTestamentarios}
+            alt="Juicios Sucesorios Intestamentarios y Testamentarios"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="flex flex-col items-start space-y-5 md:p-8 2xl:pl-32">
           <h2 className="text-3xl lg:text-4xl font-semibold text-blue">
@@ -103,18 +108,17 @@ function Index() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciodePeticiondeHerencia}
+            alt="Juicio de Petición de Herencia"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="hidden md:flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciosdePensiónAlimenticia}
+            alt="Juicios de Pensión Alimenticia"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
@@ -164,13 +168,12 @@ function Index() {
         </div>
         <div className="flex md:hidden flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciosdePensiónAlimenticia}
+            alt="Juicios de Pensión Alimenticia"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="flex flex-col items-start space-y-5 md:p-8 2xl:pl-32">
           <h2 className="text-3xl lg:text-4xl font-semibold text-blue">
@@ -225,18 +228,17 @@ function Index() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciosdeGuardayCustodiayRégimendeVisitas}
+            alt="Juicios de Guarda y Custodia y Régimen de Visitas"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="hidden md:flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciodeDivorcioIncausado}
+            alt="Juicio de Divorcio Incausado"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
@@ -280,13 +282,12 @@ function Index() {
         </div>
         <div className="flex md:hidden flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciodeDivorcioIncausado}
+            alt="Juicio de Divorcio Incausado"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="flex flex-col items-start space-y-5 md:p-8 2xl:pl-32">
           <h2 className="text-3xl lg:text-4xl font-semibold text-blue">
@@ -329,18 +330,17 @@ function Index() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciodeReconocimientodeConcubinato}
+            alt="Juicio de Reconocimiento de Concubinato"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="hidden md:flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciodeLiquidaciondeSociedadConyugal}
+            alt="Juicio de Liquidación de Sociedad Conyugal"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
@@ -380,8 +380,8 @@ function Index() {
         </div>
         <div className="flex md:hidden flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciodeLiquidaciondeSociedadConyugal}
+            alt="Juicio de Liquidación de Sociedad Conyugal"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>

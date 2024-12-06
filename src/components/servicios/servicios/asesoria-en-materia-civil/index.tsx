@@ -2,7 +2,15 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
-import MisionVision from "@/images/MisionVision.jpg";
+
+import ProcedimientodeRescisiónoCumplimientodeContrato from "@/images/Servicios/AsesoriaEnMateriaCivilyMercantil/ProcedimientodeRescisiónoCumplimientodeContrato.png";
+import ControversiasdeArrendamiento from "@/images/Servicios/AsesoriaEnMateriaCivilyMercantil/ControversiasdeArrendamiento.png";
+import CobrosyDefensadePagarés from "@/images/Servicios/AsesoriaEnMateriaCivilyMercantil/CobrosyDefensadePagarés.png";
+import JuiciodeOtorgamientoyFirmadeEscritura from "@/images/Servicios/AsesoriaEnMateriaCivilyMercantil/JuiciodeOtorgamientoyFirmadeEscritura.png";
+import ElaboraciónyRevisióndeContratos from "@/images/Servicios/AsesoriaEnMateriaCivilyMercantil/ElaboraciónyRevisióndeContratos.png";
+import JuiciosHipotecarios from "@/images/Servicios/AsesoriaEnMateriaCivilyMercantil/JuiciosHipotecarios.png";
+import AsesoríaLegalaCondominios from "@/images/Servicios/AsesoriaEnMateriaCivilyMercantil/AsesoríaLegalaCondominios.png";
+import ElaboraciónyRevisióndeRequerimientosExtrajudiciales from "@/images/Servicios/AsesoriaEnMateriaCivilyMercantil/ElaboraciónyRevisióndeRequerimientosExtrajudiciales.png";
 
 function Index() {
   return (
@@ -10,12 +18,11 @@ function Index() {
       <h2 id="asesoria-en-materia-civil-y-mercantil" className="text-4xl lg:text-5xl font-semibold text-gold text-center py-12 border-b border-b-neutral-200">
         Asesoría en materia Civil y Mercantil
       </h2>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="hidden md:flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={ProcedimientodeRescisiónoCumplimientodeContrato}
+            alt="Asesoría en materia Civil y Mercantil"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
@@ -56,13 +63,12 @@ function Index() {
         </div>
         <div className="flex md:hidden flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={ProcedimientodeRescisiónoCumplimientodeContrato}
+            alt="Asesoría en materia Civil y Mercantil"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="flex flex-col items-start space-y-5 md:p-8 2xl:pl-32">
           <h2 className="text-3xl lg:text-4xl font-semibold text-blue">
@@ -101,18 +107,17 @@ function Index() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={ControversiasdeArrendamiento}
+            alt="Controversias de Arrendamiento"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="hidden md:flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={CobrosyDefensadePagarés}
+            alt="Cobros y Defensa de Pagarés"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
@@ -157,13 +162,12 @@ function Index() {
         </div>
         <div className="flex md:hidden flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={CobrosyDefensadePagarés}
+            alt="Cobros y Defensa de Pagarés"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="flex flex-col items-start space-y-5 md:p-8 2xl:pl-32">
           <h2 className="text-3xl lg:text-4xl font-semibold text-blue">
@@ -202,18 +206,17 @@ function Index() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciodeOtorgamientoyFirmadeEscritura}
+            alt="Juicio de Otorgamiento y Firma de Escritura"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="hidden md:flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={ElaboraciónyRevisióndeContratos}
+            alt="Elaboración y Revisión de Contratos"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
@@ -253,13 +256,12 @@ function Index() {
         </div>
         <div className="flex md:hidden flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={ElaboraciónyRevisióndeContratos}
+            alt="Elaboración y Revisión de Contratos"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="flex flex-col items-start space-y-5 md:p-8 2xl:pl-32">
           <h2 className="text-3xl lg:text-4xl font-semibold text-blue">
@@ -301,18 +303,17 @@ function Index() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={JuiciosHipotecarios}
+            alt="Juicios Hipotecarios"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="hidden md:flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={AsesoríaLegalaCondominios}
+            alt="Asesoría Legal a Condominios"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
@@ -357,13 +358,12 @@ function Index() {
         </div>
         <div className="flex md:hidden flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={AsesoríaLegalaCondominios}
+            alt="Asesoría Legal a Condominios"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="flex flex-col items-start space-y-5 md:p-8 2xl:pl-32">
           <h2 className="text-3xl lg:text-4xl font-semibold text-blue">
@@ -402,8 +402,8 @@ function Index() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={ElaboraciónyRevisióndeRequerimientosExtrajudiciales}
+            alt="Elaboración y Revisión de Requerimientos Extrajudiciales"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>

@@ -2,20 +2,27 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
-import MisionVision from "@/images/MisionVision.jpg";
+
+import TramitesanteelRegistroCivil from "@/images/Servicios/GestiondeTramitesanteDependencias/TramitesanteelRegistroCivil.png";
+import TramitesanteelRegistroPublicodelaPropiedaddelaCiudaddeMexico from "@/images/Servicios/GestiondeTramitesanteDependencias/TramitesanteelRegistroPublicodelaPropiedaddelaCiudaddeMexico.png";
+import TramitesanteelArchivoGeneraldeNotarias from "@/images/Servicios/GestiondeTramitesanteDependencias/TramitesanteelArchivoGeneraldeNotarias.png";
+import TramitesdeCancelaciondeAdeudodeAguayPredialporPrescripcion from "@/images/Servicios/GestiondeTramitesanteDependencias/TramitesdeCancelaciondeAdeudodeAguayPredialporPrescripcion.png";
 
 function Index() {
   return (
     <div className="p-3 md:p-12 2xl:py-24 2xl:px-36 lg:space-y-24">
-      <h2 id="gestion-de-tramites-ante-dependencias" className="text-4xl lg:text-5xl font-semibold text-gold text-center py-12 border-b border-b-neutral-200">
+      <h2
+        id="gestion-de-tramites-ante-dependencias"
+        className="text-4xl lg:text-5xl font-semibold text-gold text-center py-12 border-b border-b-neutral-200"
+      >
         Gestión de Trámites ante Dependencias
       </h2>
 
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="hidden md:flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={TramitesanteelRegistroCivil}
+            alt="Trámites ante el Registro Civil"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
@@ -57,13 +64,12 @@ function Index() {
         </div>
         <div className="flex md:hidden flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={TramitesanteelRegistroCivil}
+            alt="Trámites ante el Registro Civil"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="flex flex-col items-start space-y-5 md:p-8 2xl:pl-32">
           <h2 className="text-3xl lg:text-4xl font-semibold text-blue">
@@ -109,18 +115,18 @@ function Index() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={TramitesanteelRegistroPublicodelaPropiedaddelaCiudaddeMexico}
+            alt="Trámites ante el Registro Público de la Propiedad de la Ciudad de
+            México"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="hidden md:flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={TramitesanteelArchivoGeneraldeNotarias}
+            alt="Trámites ante el Archivo General de Notarías"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
@@ -169,13 +175,12 @@ function Index() {
         </div>
         <div className="flex md:hidden flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={TramitesanteelArchivoGeneraldeNotarias}
+            alt="Trámites ante el Archivo General de Notarías"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
       </section>
-
       <section className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-12 md:py-0 md:p-12">
         <div className="flex flex-col items-start space-y-5 md:p-8 2xl:pl-32">
           <h2 className="text-3xl lg:text-4xl font-semibold text-blue">
@@ -218,8 +223,8 @@ function Index() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Image
-            src={MisionVision}
-            alt="Mision y Vision"
+            src={TramitesdeCancelaciondeAdeudodeAguayPredialporPrescripcion}
+            alt="Trámites de Cancelación de Adeudo de Agua y Predial por Prescripción"
             className="flex object-cover h-[400px] w-full md:h-[500px] md:w-[500px] mt-6 md:mt-0"
           />
         </div>
