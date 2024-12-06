@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
-import MisionVision from "@/images/MisionVision.jpg";
 
 import DiligenciaciondeExhortosyOficiosenCDMXyEstadodeMéxico from "@/images/Servicios/ServiciodeCorresponsaliaJuridica/DiligenciaciondeExhortosyOficiosenCDMXyEstadodeMéxico.png";
 import PasantiadeJuiciosRadicadosenCDMXyEstadodeMexico from "@/images/Servicios/ServiciodeCorresponsaliaJuridica/PasantiadeJuiciosRadicadosenCDMXyEstadodeMexico.png";
