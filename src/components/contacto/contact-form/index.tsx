@@ -639,7 +639,8 @@ export default function ContactForm() {
               </svg>
               <div className="grow">
                 <h3 className="font-semibold text-gray-800">Teléfono</h3>
-                <p className="mt-1 text-sm text-gray-500">55 2334 3676</p>
+                <p className="mt-1 text-sm text-gray-500">56 4840 3666</p>
+                <a href="https://whatsapp.com/channel/0029VaAhGa3HLHQRdnRQi80B" className="mt-1 text-sm text-gray-500">Canal de Whatsapp</a>
               </div>
             </div>
 

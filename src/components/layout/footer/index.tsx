@@ -159,8 +159,14 @@ function index() {
                 contacto@estrategiajuridicareal.com
               </p>
               <p className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500">
-                55 2334 3676
+                56 4840 3666
               </p>
+              <a
+                href="https://whatsapp.com/channel/0029VaAhGa3HLHQRdnRQi80B"
+                className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
+              >
+                Canal de Whatsapp
+              </a>
               <p className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500">
                 Lunes-Viernes: 9am – 7pm
               </p>{" "}
