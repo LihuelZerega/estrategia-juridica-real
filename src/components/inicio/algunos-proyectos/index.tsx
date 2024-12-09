@@ -41,8 +41,8 @@ function Index() {
                 href="/"
                 className="flex flex-row items-center space-x-2 text-lg mt-2"
               >
-                <p className="hover:underline">Leer mas</p>
-                <FaArrowRight size={12} />
+                {/* <p className="hover:underline">Leer mas</p>
+                <FaArrowRight size={12} /> */}
               </Link>
             </h3>
           </div>
@@ -62,8 +62,8 @@ function Index() {
                 href="/"
                 className="flex flex-row items-center space-x-2 text-lg mt-2"
               >
-                <p className="hover:underline">Leer mas</p>
-                <FaArrowRight size={12} />
+                {/* <p className="hover:underline">Leer mas</p>
+                <FaArrowRight size={12} /> */}
               </Link>
             </h3>
           </div>
@@ -84,8 +84,8 @@ function Index() {
                 href="/"
                 className="flex flex-row items-center space-x-2 text-lg mt-2"
               >
-                <p className="hover:underline">Leer mas</p>
-                <FaArrowRight size={12} />
+                {/* <p className="hover:underline">Leer mas</p>
+                <FaArrowRight size={12} /> */}
               </Link>
             </h3>
           </div>
@@ -105,8 +105,8 @@ function Index() {
                 href="/"
                 className="flex flex-row items-center space-x-2 text-lg mt-2"
               >
-                <p className="hover:underline">Leer mas</p>
-                <FaArrowRight size={12} />
+                {/* <p className="hover:underline">Leer mas</p>
+                <FaArrowRight size={12} /> */}
               </Link>
             </h3>
           </div>
