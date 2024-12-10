@@ -37,7 +37,7 @@ function Index() {
       >
         <div className="2xl:pl-24 2xl:flex 2xl:flex-col 2xl:tems-start 2xl:justify-center 2xl:mt-12">
           <motion.h1
-            className="text-7xl 2xl:text-8xl mt-10"
+            className="text-7xl 2xl:text-8xl md:mt-10"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -52,7 +52,7 @@ function Index() {
             transition={{ delay: 0.3, duration: 1 }}
           >
             <p className="text-lg 2xl:text-xl">
-              Asesoría experta en Civil, Mercantil, Familia y Juicios de Amparo.{" "}
+              Asesoría experta en Derecho Civil, Mercantil, Familia y Juicios de Amparo.{" "}
               <br /> ¡Protegemos tus derechos, construimos tu confianza!
             </p>
           </motion.div>
@@ -79,7 +79,7 @@ function Index() {
           </motion.div>
 
           <motion.div
-            className="my-12 2xl:my-16"
+            className="my-10 2xl:my-16"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 1 }}
@@ -93,25 +93,25 @@ function Index() {
           </motion.div>
 
           <motion.section
-            className="grid grid-cols-2 md:flex gap-12"
+            className="grid grid-cols-2 md:flex gap-3 md:gap-12"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1, duration: 1 }}
           >
-            <div className="flex flex-col items-center">
-              <h3 className="text-4xl 2xl:text-5xl mb-1">1500 +</h3>
+            <div className="flex flex-col items-center text-center md:text-left">
+              <h3 className="text-3xl 2xl:text-5xl mb-1">1500 +</h3>
               <h3 className="text-sm">Clientes Felices</h3>
             </div>
-            <div className="flex flex-col items-center">
-              <h3 className="text-4xl 2xl:text-5xl mb-1">95%</h3>
+            <div className="flex flex-col items-center text-center md:text-left">
+              <h3 className="text-3xl 2xl:text-5xl mb-1">95%</h3>
               <h3 className="text-sm">Casos Ganados</h3>
             </div>
-            <div className="flex flex-col items-center">
-              <h3 className="text-4xl 2xl:text-5xl mb-1">120 +</h3>
+            <div className="flex flex-col items-center text-center md:text-left">
+              <h3 className="text-3xl 2xl:text-5xl mb-1">120 +</h3>
               <h3 className="text-sm">Indice de Crecimiento</h3>
             </div>
-            <div className="flex flex-col items-center">
-              <h3 className="text-4xl 2xl:text-5xl mb-1">15%</h3>
+            <div className="flex flex-col items-center text-center md:text-left">
+              <h3 className="text-3xl 2xl:text-5xl mb-1">15%</h3>
               <h3 className="text-sm">Casos Declinados</h3>
             </div>
           </motion.section>
