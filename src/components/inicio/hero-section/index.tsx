@@ -103,7 +103,7 @@ function Index() {
               <h3 className="text-sm">Clientes Felices</h3>
             </div>
             <div className="flex flex-col items-center">
-              <h3 className="text-4xl 2xl:text-5xl mb-1">195%</h3>
+              <h3 className="text-4xl 2xl:text-5xl mb-1">95%</h3>
               <h3 className="text-sm">Casos Ganados</h3>
             </div>
             <div className="flex flex-col items-center">
