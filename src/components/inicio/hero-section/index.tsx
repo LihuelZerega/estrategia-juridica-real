@@ -79,7 +79,7 @@ function Index() {
           </motion.div>
 
           <motion.div
-            className="my-10 2xl:my-16"
+            className="my-4 2xl:my-16"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 1 }}
