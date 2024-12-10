@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa";
+// import { FaArrowRight } from "react-icons/fa";
 
 import CobrodecuotasdemantenimientodelWTC from "@/images/Proyectos/CobrodecuotasdemantenimientodelWTC.png";
 import RecuperacióndeoficinasdelWTC from "@/images/Proyectos/RecuperacióndeoficinasdelWTC.png";
