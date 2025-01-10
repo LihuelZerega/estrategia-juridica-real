@@ -16,9 +16,9 @@ function Index() {
     <header className="bg-blue flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full">
       <nav className="relative max-w-[85rem] w-full md:flex md:items-center md:justify-between md:gap-3 mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <div className="flex items-center justify-between">
-          <Link href="/" aria-label="Brand">
+          <Link href="/" className="my-1.5" aria-label="Brand">
             <Image src={Logo} alt="Logo" width={120} height={120} className="block md:hidden"/>
-            <Image src={Logo} alt="Logo" width={150} height={150} className="hidden md:block"/>
+            <Image src={Logo} alt="Logo" width={180} height={180} className="hidden md:block"/>
           </Link>
 
           <div className="md:hidden">
