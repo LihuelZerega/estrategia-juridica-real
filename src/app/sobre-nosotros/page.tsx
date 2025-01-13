@@ -5,10 +5,12 @@ import QuienesSomos from "@/components/sobre-nosotros/quienes-somos";
 import NuestrosValores from "@/components/sobre-nosotros/nuestros-valores";
 import AreasDeEspecializacion from "@/components/sobre-nosotros/areas-de-especializacion";
 import MisionVision from "@/components/sobre-nosotros/mision-vision";
+import WhatsAppButton from "@/components/layout/whatsapp-bubble";
 
 export default function Page() {
   return (
     <>
+      <WhatsAppButton />
       <Navbar />
       <HeroSection />
       <QuienesSomos />

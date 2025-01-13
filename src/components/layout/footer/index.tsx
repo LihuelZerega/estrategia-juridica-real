@@ -159,7 +159,7 @@ function index() {
                 contacto@estrategiajuridicareal.com
               </p>
               <p className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500">
-                56 4840 3666
+              +52 1 56 4840 3666
               </p>
               <a
                 href="https://whatsapp.com/channel/0029VaAhGa3HLHQRdnRQi80B"
@@ -169,6 +169,9 @@ function index() {
               </a>
               <p className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500">
                 Lunes-Viernes: 9am – 7pm
+              </p>{" "}
+              <p className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500">
+              C. Río Lerma 94, Cuauhtémoc, 06500 Ciudad de México, CDMX
               </p>{" "}
             </div>
           </div>
