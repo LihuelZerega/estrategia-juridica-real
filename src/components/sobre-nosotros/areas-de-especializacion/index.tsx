@@ -12,12 +12,6 @@ function Index() {
           <h2 className="text-center lg:text-left text-4xl lg:text-5xl font-semibold text-blue">
             <span className="text-gold">Áreas <br /> </span> De Especialización
           </h2>
-          <p className="text-sm md:text-base text-neutral-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis.
-          </p>
           <div className="grid grid-cols-2 gap-x-12 gap-y-6">
             <div className="flex flex-row items-center space-x-1">
               <GoNorthStar className="text-gold" />
