@@ -153,6 +153,12 @@ function Index() {
             >
               Contactanos
             </Link>
+            <Link
+              className="py-2 px-3 flex items-center text-sm/5 text-white hover:bg-gold border"
+              href="https://cal.com/estrategia-real-wopazi"
+            >
+              Agenda tu asesoría
+            </Link>
           </div>
         </motion.div>
       </nav>
