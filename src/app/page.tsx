@@ -7,6 +7,7 @@ import Testimonios from "@/components/inicio/testimonios";
 import Footer from "@/components/layout/footer";
 import Faq from "@/components/inicio/faq";
 import WhatsAppButton from "@/components/layout/whatsapp-bubble";
+import Cal from "@/components/inicio/cal";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <SobreNosotros />
+      <Cal />
+      <br />
       <NuestrosServicios />
       <AlgunosProyectos />
       <Testimonios />
