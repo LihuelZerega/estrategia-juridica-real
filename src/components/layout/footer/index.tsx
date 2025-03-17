@@ -156,7 +156,7 @@ function index() {
 
             <div className="mt-3 grid space-y-3 text-sm">
               <p className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500">
-                contacto@estrategiajuridicareal.com
+                enlace@estartegiajuridicareal.com
               </p>
               <p className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500">
               +52 1 56 4840 3666
