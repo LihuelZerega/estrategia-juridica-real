@@ -159,7 +159,7 @@ function index() {
                 enlace@estrategiajuridicareal.com
               </p>
               <p className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500">
-              +52 1 56 4840 3666
+                +52 1 56 4840 3666
               </p>
               <a
                 href="https://whatsapp.com/channel/0029VaAhGa3HLHQRdnRQi80B"
@@ -171,7 +171,7 @@ function index() {
                 Lunes-Viernes: 9am – 7pm
               </p>{" "}
               <p className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500">
-              C. Río Lerma 94, Cuauhtémoc, 06500 Ciudad de México, CDMX
+                Amberes número 38 despacho 202, Colonia Juárez, Cuauhtémoc, 06600, Ciudad de México
               </p>{" "}
             </div>
           </div>

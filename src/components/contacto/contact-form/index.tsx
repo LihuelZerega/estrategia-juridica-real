@@ -579,7 +579,7 @@ export default function ContactForm() {
               <div className="grow">
                 <h3 className="font-semibold text-gray-800">Dirección</h3>
                 <p className="mt-1 text-sm text-gray-500">
-                C. Río Lerma 94, Cuauhtémoc, 06500 Ciudad de México, CDMX 
+                  Amberes número 38 despacho 202, Colonia Juárez, Cuauhtémoc, 06600, Ciudad de México
                 </p>
               </div>
             </div>
