@@ -11,6 +11,8 @@ import TramitesAnteDependencias from "@/images/TramitesAnteDependencias.png";
 import TramitesDependencias from "@/images/TramitesDependencias.png";
 import CorresponsaliaJuridica from "@/images/CorresponsaliaJuridica.png";
 import MateriaFamiliar from "@/images/MateriaFamiliar.png";
+import RematesBancariosHero from "@/images/Servicios/RematesBancarios/Hero.png";
+import FideicomisosGarantiaHero from "@/images/Servicios/FideicomisosDeGarantia/Hero.png";
 
 function Index() {
   return (
@@ -40,7 +42,7 @@ function Index() {
           <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#asesoria-en-materia-civil-y-mercantil">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -50,7 +52,7 @@ function Index() {
                 <Image
                   src={TramitesAnteDependencias}
                   alt="Asesoría en materia Civil y Mercantil"
-                  className="object-cover opacity-90"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
                 />
                 <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
                   Asesoría en materia Civil y Mercantil
@@ -61,7 +63,7 @@ function Index() {
           <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#asesoria-juridica-en-materia-familiar">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -71,7 +73,7 @@ function Index() {
                 <Image
                   src={MateriaFamiliar}
                   alt="Asesoría Jurídica en Materia Familiar"
-                  className=" object-cover opacity-90"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
                 />
                 <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
                   Asesoría Jurídica en Materia Familiar
@@ -82,7 +84,7 @@ function Index() {
           <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#servicio-de-corresponsalicia-juridica">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -92,7 +94,7 @@ function Index() {
                 <Image
                   src={CorresponsaliaJuridica}
                   alt="Servicio de Corresponsalía Jurídica"
-                  className=" object-cover opacity-90"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
                 />
                 <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
                   Servicio de Corresponsalía Jurídica
@@ -101,9 +103,51 @@ function Index() {
             </a>
           </SwiperSlide>
           <SwiperSlide className="py-12 h-[300px] w-[300px]">
+            <a href="/servicios#remates-bancarios">
+              <motion.div
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
+                whileHover={{
+                  scale: 1.01,
+                  boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
+                }}
+                transition={{ duration: 0.3, ease: "easeInOut" }}
+              >
+                <Image
+                  src={RematesBancariosHero}
+                  alt="Remates Bancarios"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
+                />
+                <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
+                  Remates Bancarios
+                </h3>
+              </motion.div>
+            </a>
+          </SwiperSlide>
+          <SwiperSlide className="py-12 h-[300px] w-[300px]">
+            <a href="/servicios#fideicomisos-de-garantia">
+              <motion.div
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
+                whileHover={{
+                  scale: 1.01,
+                  boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
+                }}
+                transition={{ duration: 0.3, ease: "easeInOut" }}
+              >
+                <Image
+                  src={FideicomisosGarantiaHero}
+                  alt="Fideicomisos de Garantía"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
+                />
+                <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
+                  Fideicomisos de Garantía
+                </h3>
+              </motion.div>
+            </a>
+          </SwiperSlide>
+          <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#gestion-de-tramites-ante-dependencias">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -113,7 +157,7 @@ function Index() {
                 <Image
                   src={TramitesDependencias}
                   alt="Gestión de Trámites ante Dependencias"
-                  className=" object-cover opacity-9"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
                 />
                 <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
                   Gestión de Trámites ante Dependencias
@@ -136,10 +180,10 @@ function Index() {
           modules={[Autoplay, Pagination]}
           className="mySwiper"
         >
-          <SwiperSlide className="py-12">
+          <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#asesoria-en-materia-civil-y-mercantil">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -157,10 +201,10 @@ function Index() {
               </motion.div>
             </a>
           </SwiperSlide>
-          <SwiperSlide className="py-12">
+          <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#asesoria-juridica-en-materia-familiar">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -178,10 +222,10 @@ function Index() {
               </motion.div>
             </a>
           </SwiperSlide>
-          <SwiperSlide className="py-12">
+          <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#servicio-de-corresponsalicia-juridica">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -200,10 +244,52 @@ function Index() {
               </motion.div>
             </a>
           </SwiperSlide>
-          <SwiperSlide className="py-12">
+          <SwiperSlide className="py-12 h-[300px] w-[300px]">
+            <a href="/servicios#remates-bancarios">
+              <motion.div
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
+                whileHover={{
+                  scale: 1.01,
+                  boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
+                }}
+                transition={{ duration: 0.3, ease: "easeInOut" }}
+              >
+                <Image
+                  src={RematesBancariosHero}
+                  alt="Remates Bancarios"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
+                />
+                <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
+                  Remates Bancarios
+                </h3>
+              </motion.div>
+            </a>
+          </SwiperSlide>
+          <SwiperSlide className="py-12 h-[300px] w-[300px]">
+            <a href="/servicios#fideicomisos-de-garantia">
+              <motion.div
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
+                whileHover={{
+                  scale: 1.01,
+                  boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
+                }}
+                transition={{ duration: 0.3, ease: "easeInOut" }}
+              >
+                <Image
+                  src={FideicomisosGarantiaHero}
+                  alt="Fideicomisos de Garantía"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
+                />
+                <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
+                  Fideicomisos de Garantía
+                </h3>
+              </motion.div>
+            </a>
+          </SwiperSlide>
+          <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#gestion-de-tramites-ante-dependencias">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -239,7 +325,7 @@ function Index() {
           <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#asesoria-en-materia-civil-y-mercantil">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -249,7 +335,7 @@ function Index() {
                 <Image
                   src={TramitesAnteDependencias}
                   alt="Asesoría en materia Civil y Mercantil"
-                  className="object-cover opacity-90"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
                 />
                 <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
                   Asesoría en materia Civil y Mercantil
@@ -260,7 +346,7 @@ function Index() {
           <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#asesoria-juridica-en-materia-familiar">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -270,7 +356,7 @@ function Index() {
                 <Image
                   src={MateriaFamiliar}
                   alt="Asesoría Jurídica en Materia Familiar"
-                  className="object-cover opacity-90"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
                 />
                 <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
                   Asesoría Jurídica en Materia Familiar
@@ -281,7 +367,7 @@ function Index() {
           <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#servicio-de-corresponsalicia-juridica">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -292,7 +378,7 @@ function Index() {
                   src={CorresponsaliaJuridica}
                   alt="Servicio de Corresponsalía Jurídica
 "
-                  className="object-cover opacity-90"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
                 />
                 <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
                   Servicio de Corresponsalía Jurídica
@@ -301,9 +387,51 @@ function Index() {
             </a>
           </SwiperSlide>
           <SwiperSlide className="py-12 h-[300px] w-[300px]">
+            <a href="/servicios#remates-bancarios">
+              <motion.div
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
+                whileHover={{
+                  scale: 1.01,
+                  boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
+                }}
+                transition={{ duration: 0.3, ease: "easeInOut" }}
+              >
+                <Image
+                  src={RematesBancariosHero}
+                  alt="Remates Bancarios"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
+                />
+                <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
+                  Remates Bancarios
+                </h3>
+              </motion.div>
+            </a>
+          </SwiperSlide>
+          <SwiperSlide className="py-12 h-[300px] w-[300px]">
+            <a href="/servicios#fideicomisos-de-garantia">
+              <motion.div
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
+                whileHover={{
+                  scale: 1.01,
+                  boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
+                }}
+                transition={{ duration: 0.3, ease: "easeInOut" }}
+              >
+                <Image
+                  src={FideicomisosGarantiaHero}
+                  alt="Fideicomisos de Garantía"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
+                />
+                <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
+                  Fideicomisos de Garantía
+                </h3>
+              </motion.div>
+            </a>
+          </SwiperSlide>
+          <SwiperSlide className="py-12 h-[300px] w-[300px]">
             <a href="/servicios#gestion-de-tramites-ante-dependencias">
               <motion.div
-                className="bg-blue relative border-4 border-gold shadow-sm"
+                className="bg-blue relative border-4 border-gold shadow-sm h-[300px] w-[300px]"
                 whileHover={{
                   scale: 1.01,
                   boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.3)",
@@ -313,7 +441,7 @@ function Index() {
                 <Image
                   src={TramitesDependencias}
                   alt="Gestión de Trámites ante Dependencias"
-                  className="object-cover opacity-90"
+                  className="h-[300px] w-[300px] object-cover opacity-90"
                 />
                 <h3 className="w-full absolute text-center bottom-4 left-1/2 transform -translate-x-1/2 text-white text-3xl font-bold">
                   Gestión de Trámites ante Dependencias

@@ -92,6 +92,22 @@ function index() {
               <p>
                 <Link
                   className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
+                  href="/servicios#remates-bancarios"
+                >
+                  Remates Bancarios
+                </Link>
+              </p>
+              <p>
+                <Link
+                  className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
+                  href="/servicios#fideicomisos-de-garantia"
+                >
+                  Fideicomisos de Garantía
+                </Link>
+              </p>
+              <p>
+                <Link
+                  className="inline-flex gap-x-2 text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500"
                   href="/servicios#servicio-de-corresponsalicia-juridica"
                 >
                   Servicio de Corresponsalía Jurídica

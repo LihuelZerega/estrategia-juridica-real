@@ -6,6 +6,7 @@ import NuestrosValores from "@/components/sobre-nosotros/nuestros-valores";
 import AreasDeEspecializacion from "@/components/sobre-nosotros/areas-de-especializacion";
 import MisionVision from "@/components/sobre-nosotros/mision-vision";
 import WhatsAppButton from "@/components/layout/whatsapp-bubble";
+import Equipo from "@/components/sobre-nosotros/equipo";
 
 export default function Page() {
   return (
@@ -20,6 +21,7 @@ export default function Page() {
       <MisionVision />
       <NuestrosValores />
       <AreasDeEspecializacion />
+      <Equipo />
       <Footer />
     </>
   );

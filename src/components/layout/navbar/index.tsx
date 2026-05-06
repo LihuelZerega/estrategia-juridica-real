@@ -126,6 +126,18 @@ function Index() {
                   </Link>
                   <Link
                     className="block px-4 py-3 text-base text-gray-800 hover:bg-gray-100 border-t"
+                    href="/servicios#remates-bancarios"
+                  >
+                    Remates Bancarios
+                  </Link>
+                  <Link
+                    className="block px-4 py-3 text-base text-gray-800 hover:bg-gray-100 border-t"
+                    href="/servicios#fideicomisos-de-garantia"
+                  >
+                    Fideicomisos de Garantía
+                  </Link>
+                  <Link
+                    className="block px-4 py-3 text-base text-gray-800 hover:bg-gray-100 border-t"
                     href="/servicios#servicio-de-corresponsalicia-juridica"
                   >
                     Servicio de Corresponsalía Jurídica
