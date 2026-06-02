@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 
 import Maricruz from "@/images/Equipo/Lic Maricruz.jpeg";
 import JoseAlejandro from "@/images/Equipo/Lic Jose Alejandro.jpeg";
-import CynthiaGonzalez from "@/images/Equipo/Lic Cynthia Gonzalez.jpeg";
 
 const team = [
   {
@@ -19,13 +18,7 @@ const team = [
     role: "Asociado Jr.",
     description: "Egresado del Instituto Nacional de Estudios Sindicales y de Administración Pública de la FSTSE",
     image: JoseAlejandro,
-  },
-  {
-    name: "Lic. Cynthia González",
-    role: "Asociada Jr.",
-    description: "Egresada de la Facultad de Estudios Superiores de la UNAM",
-    image: CynthiaGonzalez,
-  },
+  }
 ];
 
 function Equipo() {
